@@ -1,0 +1,28 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+a[class="active"] {
+    color: gold;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.dialogs img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+

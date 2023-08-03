@@ -1,0 +1,26 @@
+.nav {
+    grid-area: n;
+    background-color: rgb(95, 138, 239);
+    padding: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a[class="active"] {
+    color: gold;
+}
+
+.sideBar {
+    float: left;
+    margin: 5px;
+    padding-top: 100px;
+}
+
+.bar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
